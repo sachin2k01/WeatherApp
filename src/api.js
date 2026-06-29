@@ -11,7 +11,7 @@ export const geoApiOptions = {
   },
 };
 
- // url: "https://wft-geo-db.p.rapidapi.com/v1/geo/countries",
+// url: "https://wft-geo-db.p.rapidapi.com/v1/geo/countries",
 
 // try {
 //   const response = await axios.request(options);
@@ -19,3 +19,8 @@ export const geoApiOptions = {
 // } catch (error) {
 //   console.error(error);
 // }
+
+// https://api.openweathermap.org/data/4.0/onecall/current?lat={lat}&lon={lon}&appid={API key}
+
+export const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5";
+export const WEATHER_API_KEY = "427933294d56ea9ccabc71dcb9483f0b";
